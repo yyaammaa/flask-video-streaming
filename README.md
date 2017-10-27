@@ -6,5 +6,6 @@ Supporting code for my article [video streaming with Flask](http://blog.miguelgr
 
 # yama
 
+https://blog.miguelgrinberg.com/post/video-streaming-with-flask
 https://flask-video-streaming.herokuapp.com/
 
