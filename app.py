@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-from importlib import import_module
 import os
+from importlib import import_module
+
 from flask import Flask, render_template, Response
 
 # import camera driver
@@ -37,4 +38,5 @@ def video_feed():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', threaded=True)
+    #    app.run(host='0.0.0.0', threaded=True)
+    app.run(threaded=True)
